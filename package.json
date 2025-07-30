@@ -1,0 +1,21 @@
+{
+  "name": "website",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^7.0.4"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "ammo.js": "github:kripken/ammo.js",
+    "stats.js": "^0.17.0",
+    "tailwindcss": "^4.1.11",
+    "three": "^0.178.0"
+  }
+}
