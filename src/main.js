@@ -1,7 +1,4 @@
-import './style.css';
-import { Scene } from './js/Scene.js';
+import "./style.css";
+import { initHomeScene } from "./js/home.js";
 
-Ammo().then((lib) => {
-  const scene = new Scene(lib);
-  console.log(scene);
-});
+initHomeScene();
